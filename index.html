@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ruth Jomo</title>
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro:400,700" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="media.css" media="screen and (max-width:768px)"> primera 
+    forma de importar un media query, llamando una hoja de estilos si la 
+    condicion se cumple -->
+    <!-- <style>
+      @media screen and (max-width: 768px){
+        body{
+          border: 10px solid red;
+        }
+      }
+      Tercera forma de insertar un media query, en la misma hoja de html. Esto seria solo
+      para proyectos sencillos, minipaginas, etc.
+    </style> -->
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  </head>
+  <body>
+    <i class="icon-menu burger-button" id="burger-menu"></i>
+    <header class="header">
+      <div class="wrapper">
+        <figure class="logo"><img src="./images/projects/imagelogo-removebg-preview.jpg" width="80" height="80" alt="Logo Sebastian Garcia"></figure>
+        <nav class="menu">
+            <ol>
+              <li><a class="link" href="#aboutme">About Me</a></li>
+              <li><a class="link" href="#portfolio">Projects</a></li>
+              <li><a class="link" href="#events"></a></li>
+              <li><a class="link" href="#contact">Contacts</a></li>
+            </ol>
+        </nav>
+      </div>
+    </header>
+    <section id="aboutme" class="aboutme">
+      <div class="wrapper">
+        <h1>Hello,I am <strong> Ruth Jomo </strong>, <br> Get to know <strong> me here </strong>.</h1>
+        <img class="aboutme-image" width="250" height="300" src="./images/projects/port3.jpg" alt="Sebastián">
+      </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <div class="wrapper">
+        <h2>My Projects</h2>
+        <article class="project">
+          <div class="project-content">
+            <h3 class="project-tittle">Order Pizza</h3>
+            <h6 class="project-languages">HTML, CSS and JavaScript</h6>
+            
+            <p class="project-link"><small>View the project <a href="https://ruthjomo.github.io/OrderPizza/" target="_blank">here</a>.</small></p>
+            <p class="project-description">This is an online pizza app.One can view pizzas available,choose crust and topping and place the order.</p>
+          </div>
+          <figure class="project-imageWrapper">
+            <img class="project-image" src="./images/amber-engle-lHUdfk5WGXc-unsplash.jpg" width="480"  alt="Juego Piedra Papel o Tijeras.">
+          </figure>
+        </article>
+        <article class="project">
+          <div class="project-content">
+            <h3 class="project-tittle">Quote App.</h3>
+            <h6 class="project-languages">HTML, CSS y JavaScript</h6>
+            
+            <p class="project-link"><small>View the project<a href="https://ruthjomo.github.io/Quote-App/"  target="_blank">here</a>.</small></p>
+            <p class="project-description">This is an app whwereby a user can post,update,delete,comment on a quote.</p>
+          </div>
+          <figure class="project-imageWrapper">
+            <img class="project-image" src="./images/images.jpeg" width="300" alt="Platzi video downloader.">
+          </figure>
+        </article>
+      </div>
+    </section>
+    <div class="wrapper">
+<br>
+    </div>
+    <section  class="event-list">
+      <div class="wrapper">
+        <article class="event">
+          <figure class="event-imageWrapper"><img class="event-image" src="./images/IMG_20200903_161142.jpg" alt="Evento 1"></figure>
+          <div class="event-content">
+            <h3 class="event-title">GitSearch</h3>
+            <p class="event-description">App that can be used to search for github users through their usernames or repository names.</p>
+            <a class="event-link" href="https://ruthjomo.github.io/GitSearch/">View Project</a>
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-imageWrapper"><img class="event-image" src="./images/blog.jpeg" alt="Evento 1"></figure>
+          <div class="event-content">
+            <h3 class="event-title">Blog</h3>
+            <p class="event-description">This is an app where users can create blogs,view,comment and delete them.</p>
+            <a class="event-link" href="https://jomo-blog.herokuapp.com/">View Project</a>
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-imageWrapper"><img class="event-image" src="./images/fashion-public-relations.jpg" alt="Evento 1"></figure>
+          <div class="event-content">
+            <h3 class="event-title">Fashion & Style</h3>
+            <p class="event-description">A fun and educative fashion website.</p>
+            <a class="event-link" href="https://fashion-and-style.netlify.app/">View Project</a>
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-imageWrapper"><img class="event-image" src="./images/projects/939e69a70943a2593e3b8aafccc6e29e.jpg" alt="Evento 1"></figure>
+          <div class="event-content">
+            <h3 class="event-title">Akan App</h3>
+            <p class="event-description">A website application that generates the akan name of a user according to the ghanian culture.It gets the Akan name according to the day of birth.</p>
+            <a class="event-link" href="https://ruthjomo.github.io/AkanProject/">View project</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="wrapper bg bg-dark">
+        <form action="" class="form-email">
+            <h3>Contacts</h3>
+          <input type="email" name="" id="" placeholder="email">
+          <button>Submit</button>
+        </form>
+        <div class="social ">
+          <a href="https://twitter.com/MarloneyRupy" class="social-link twitter"></a>
+          <a href="https://www.instagram.com/rupymarloney/?hl=en" class="social-link instagram"></a>
+          <a href="https://github.com/ruthjomo" class="social-link github"></a>
+  
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="wrapper">
+        <div><p >copyright @2020<a href="">Ruth Jomo</a>.</p></div>
+      </div>
+    </footer>
+    <script>
+      const ipad = window.matchMedia('screen and (max-width: 767px)');  
+      const menu = document.querySelector('.menu');
+      const burgerButton = document.querySelector('#burger-menu');
+
+      ipad.addListener(validation);
+
+      function validation(event){
+        if (event.matches){
+          burgerButton.addEventListener('click', hideShow);
+        }else{
+          burgerButton.removeEventListener('click', hideShow);
+        }
+      }
+      validation(ipad);
+      function hideShow(){
+        if (menu.classList.contains('is-active')){
+        menu.classList.remove('is-active');
+        }else{
+        menu.classList.add('is-active');
+        }
+      }
+    </script>
+  </body>
+</html>
