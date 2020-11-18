@@ -1,6 +1,6 @@
 # MyPortfolio
 # Ruth Jomo
-This website is my personal portfolio. 
+This website is my portfolio. 
 ## Demo
 
 You can check this website on this https://ruthjomo.github.io/MyPortfolio/ 
